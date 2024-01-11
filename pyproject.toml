@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aulas"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Eduardo Caldeira <ced@certi.org.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.28.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
